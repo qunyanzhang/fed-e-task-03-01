@@ -7,10 +7,10 @@
 2. Diff算法是找同级别的子节点一次比较，然后再找下一级别的节点比较，算法时间复杂度为O(n)。在进行同级别节点比较的时候，首先会对新老节点数组的开始和结尾节点设置标记索引，遍历的过程中移动索引。
 diff 算法的核心，对比新旧节点的 children，更新 DOM;
 在对开始和结束节点比较的时候，总共有四种情况：
-1).oldStartVnode / newStartVnode (旧开始节点 / 新开始节点)
-2).oldEndVnode / newEndVnode (旧结束节点 / 新结束节点)
-3).oldStartVnode / newEndVnode (旧开始节点 / 新结束节点)
-4).oldEndVnode / newStartVnode (旧结束节点 / 新开始节点)
++ 1).oldStartVnode / newStartVnode (旧开始节点 / 新开始节点)
++ 2).oldEndVnode / newEndVnode (旧结束节点 / 新结束节点)
++ 3).oldStartVnode / newEndVnode (旧开始节点 / 新结束节点)
++ 4).oldEndVnode / newStartVnode (旧结束节点 / 新开始节点)
 
 ## 编程题
 
