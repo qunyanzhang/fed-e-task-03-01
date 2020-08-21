@@ -15,5 +15,5 @@ diff 算法的核心，对比新旧节点的 children，更新 DOM;
 ## 编程题
 
 1. 见目录 my-hash-vue-router, 参照课程history模式最后通过监听hashchange事件来改变路由地址的变化
-2. 见目录 vue-html-on, v-html实现跟v-text类似，只是赋值的不是textContent而是innerHTML;v-on将methods中的方法挂载到Vue实例中，然后调用this.vm[script]()
+2. 见目录 vue-html-on, v-html实现跟v-text类似，只是赋值的不是textContent而是innerHTML;v-on将methods中的方法挂载到Vue实例中，然后调用`this.vm[script]()`
 3. 见目录 my-snabbdom, 根据snabbom规则语法实现
